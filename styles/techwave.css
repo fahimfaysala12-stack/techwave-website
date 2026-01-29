@@ -35,8 +35,9 @@ header{
     padding:16px 200px;
     
     color:#FFFFFF;
+    border-bottom:1px solid #412567;
     
-    padding-bottom: 30px;
+    
     
     
 }
@@ -64,3 +65,110 @@ header{
     padding:13px 16px;
     background:linear-gradient(45deg,#F7E93F 0%,#F8966A 20%,#FB09B4 55%,#B403E1 100%);
 }
+/* Banner section styles */
+.banner{
+    position:relative;
+    background-image: url("/assets/hero-bg.png");
+    width:100%;
+    background-size: cover;
+    max-width: 1600px;
+}
+.banner-contents{
+    margin: 101px 525px;
+    
+}
+.img-container{
+    
+    
+
+    position: relative;
+    width:350px;
+    height:350px;
+    
+    
+    
+    
+    
+
+}
+#hero-circle{
+    display: block;
+    width: 100%;
+    height:100%;
+}
+#microphone{
+    position:absolute;
+    top:50%;
+    left:50%;
+    z-index: 1;
+    transform: translate(-50%,-50%);
+    width:30%;
+}
+.banner-text-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+    text-align:center;
+}
+.banner-title{
+    font-size:3.8rem;
+    font-weight: 800;
+    color:#ffffff;
+}
+.banner-description{
+    font-size:1rem;
+    color:#FFFFFF;
+}
+
+/* About Info styles */
+.about-container{
+    
+    
+    background-color: #1A0B2E;
+    max-width: 1600px;
+    color:#FFFFFF;
+    text-align: center;
+    padding:50px 200px 120px 200px;
+    
+}
+.about-title{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.about-description{
+    font-size: 1rem;
+    line-height:1.5;
+    
+    
+}
+.about-container hr{
+    margin:80px auto;
+    
+    border:1px solid rgba(255,255,255, .1);
+    width:75%;
+    
+}
+.about-info{
+    justify-content: space-between;
+    align-items: center;
+    gap:80px;
+    
+}
+.about-number, .about-episodes, .about-ratings, .about-experts{
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    gap:16px;
+}
+.about-h3{
+    font-size: 3rem;
+    color:#00FF88;
+    font-weight: 900;
+}
+ .about-paragraph{
+    font-size: 1.25rem;
+    font-weight: 400;
+ }
