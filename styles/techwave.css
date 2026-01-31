@@ -75,6 +75,7 @@ header{
     width:100%;
     background-size: cover;
     max-width: 1600px;
+    min-height: 90vh;
 }
 .banner-contents{
     display: flex;
@@ -478,10 +479,27 @@ header{
  /* Responsive design */
 
  @media screen and  (max-width:576px) {
+   
+ 
+     .banner {
+    min-height: 65vh;
+    background-size: contain;      
+    background-position: 25% 35%;
+    padding:0px;
+    background-repeat:no-repeat;
+    margin-top:0px;
+  }
+.banner-title{
+   font-size: 2.5rem;
+}
 
 
-
-    .features-container, .fetured-episodes-container, .meet-the-host-container{
+.img-container{
+   width: 180px;
+   height:180px;
+   
+}
+    .features-container, .fetured-episodes-container, .meet-the-host-container,.about-container,.footer-container,{
       padding:20px;
     }
     #features-title , .fetured-episodes-title, .meet-the-host-title{
@@ -490,7 +508,7 @@ header{
       margin-bottom: 0px;
 
     }
-   .features, .episodes, .about-host-container{
+   .features, .episodes, .about-host-container,.about-container,.footer-container,.banner-contents{
       display:flex;
       flex-direction:column;
       justify-content:center;
@@ -498,7 +516,13 @@ header{
       gap:16px;
       padding:16px 24px;
    }
-
+   .about-info,.footer-social{
+      display:grid;
+      grid-template-columns: repeat(2,1fr);
+      align-items: center;
+      justify-items: center;
+   }
+   
 
    
  }
