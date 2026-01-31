@@ -523,7 +523,10 @@ header{
    margin-top:32px;
    color:rgba(255,255,255, .6);
 
+
  }
+
+
  /* Responsive design */
 
  @media screen and  (max-width:576px) {
@@ -583,6 +586,9 @@ header{
       grid-template-columns: repeat(2,1fr);
       align-items: center;
       justify-items: center;
+   }
+   .about-host {
+      align-items: center;
    }
    .feature-video{
       display: flex;
