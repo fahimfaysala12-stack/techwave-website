@@ -6,6 +6,7 @@
 
 body{
    max-width: 1600px;
+   
 }
 
 
@@ -473,4 +474,31 @@ header{
    margin-top:32px;
    color:rgba(255,255,255, .6);
 
+ }
+ /* Responsive design */
+
+ @media screen and  (max-width:576px) {
+
+
+
+    .features-container, .fetured-episodes-container, .meet-the-host-container{
+      padding:20px;
+    }
+    #features-title , .fetured-episodes-title, .meet-the-host-title{
+      font-size: 2rem;
+      padding-bottom:0px;
+      margin-bottom: 0px;
+
+    }
+   .features, .episodes, .about-host-container{
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+      align-items:center;
+      gap:16px;
+      padding:16px 24px;
+   }
+
+
+   
  }
